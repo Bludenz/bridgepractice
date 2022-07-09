@@ -98,7 +98,7 @@ This community was disbanded by the owner.
     elif "/comm join" in command:
         raw = command.split(" ")
         raw.remove("/comm")
-        raw.remove("invite")
+        raw.remove("join")
         comm = " ".join(raw)
         
         print(f"""
